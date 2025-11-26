@@ -180,6 +180,7 @@ groups:
     - StructureDefinition/cholesterol-ldl-lab-lt
     - StructureDefinition/triglycerides-lab-lt
     - StructureDefinition/lipidogram-lab-lt
+    - StructureDefinition/glucose-venous-lab-lt
     # valuesets:
     # - ValueSet/cholesterol-ldl-method-lt
   GroupB:
