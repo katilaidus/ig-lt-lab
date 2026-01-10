@@ -22,7 +22,7 @@ Description: "This profile defines how to represent an laboratory orders using t
 * identifier 1..
 * requisition ^short = "Composite Request ID."
 * code from $lab-orderCodes-eu-lab (preferred)
-* subject only Reference($EuPatientCoreUrl or $EuPatientAnimalUrl or Group or Location or Device)
+* subject only Reference($EuPatientUrl or $EuPatientAnimalUrl or Group or Location or Device)
 * authoredOn ^short = "When the order was placed"
 * insurance only Reference(Coverage)
 * supportingInfo ^short = "Additional information: e.g AOEs and prior results"

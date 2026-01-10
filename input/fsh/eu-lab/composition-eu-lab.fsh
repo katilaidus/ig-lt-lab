@@ -31,7 +31,7 @@ Description: "Clinical document used to represent a Laboratory Report for the sc
 * extension contains
     $information-recipient named information-recipient 0..* and
     $composition-diagnosticReportReference named diagnosticReport-reference 1..1
-* extension[information-recipient].value[x] only Reference($EuPractitionerCoreUrl or Device or $EuPatientCoreUrl or RelatedPerson or $EuPractitionerRoleCoreUrl or Organization)
+* extension[information-recipient].value[x] only Reference($EuPractitionerUrl or Device or $EuPatientUrl or RelatedPerson or $EuPractitionerRoleUrl or Organization)
 * extension[diagnosticReport-reference].value[x] 1..
 * extension[diagnosticReport-reference].value[x] only Reference($DiagnosticReport-eu-lab)
 * extension[diagnosticReport-reference].value[x].reference 1..
@@ -65,7 +65,7 @@ Description: "Clinical document used to represent a Laboratory Report for the sc
 * category[specialty] ^definition = "Laboratory specialty is an attribute of any laboratory setting representing professional qualification of the laboratory to execute certain kind of laboratory tests."
 * category[specialty] ^comment = "Specialty could be used as parameter for searching/querying of laboratory test results."
 * subject 1..
-* subject only Reference($EuPatientCoreUrl or $EuPatientAnimalUrl or Group or Location or Device)
+* subject only Reference($EuPatientUrl or $EuPatientAnimalUrl or Group or Location or Device)
 * subject ^short = "Who and/or what this report is about"
 * subject ^definition = "Who or what this report is about. The report can be about a human patient, a living subject, a device (e.g. a machine), a location or even a group of subjects (such as a document about a herd of livestock, or a set of patients that share a common exposure)."
 * subject ^comment = "DiagnosticReport and Composition SHALL have the same subject"

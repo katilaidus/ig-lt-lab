@@ -69,7 +69,7 @@ This observation may represent the result of a simple laboratory test such as he
 * code ^definition = "Describes what was observed. Sometimes this is called the observation \"name\".  In this profile this code represents either a simple laboratory test or a laboratory study with multiple child observations"
 * code ^comment = "In the context of this Observation-laboratory profile, when the observation plays the role of a grouper of member sub-observations, the code represent the group (for instance a panel code). In case no code is available, at least a text shall be provided."
 * subject 1..
-* subject only Reference($EuPatientAnimalUrl or $EuPatientCoreUrl or Group or Device or Location)
+* subject only Reference($EuPatientAnimalUrl or $EuPatientUrl or Group or Device or Location)
 * subject.reference 1..
 * effective[x] 1..
 * effective[x] only dateTime or Period
@@ -78,7 +78,7 @@ This observation may represent the result of a simple laboratory test such as he
 * effective[x].extension[data-absent-reason] ^definition = "Provides a reason why the effectiveTime is missing."
 * issued ^short = "Date/Time this result was made available"
 * performer 1..
-* performer only Reference($EuPractitionerRoleUrl or $EuPractitionerUrl or $EuOrganization or CareTeam or $EuPatientCoreUrl or RelatedPerson)
+* performer only Reference($EuPractitionerRoleUrl or $EuPractitionerUrl or $EuOrganization or CareTeam or $EuPatientUrl or RelatedPerson)
 * performer.extension contains PerformerFunction named performerFunction 0..*
 * value[x] ^slicing.discriminator.type = #type
 * value[x] ^slicing.discriminator.path = "$this"
