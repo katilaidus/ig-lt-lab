@@ -86,72 +86,8 @@ Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation
 
 
 // LtBase
-Alias: $lt-base-patient = https://hl7.lt/fhir/base/StructureDefinition/lt-patient
-
-// EU profiles
-Alias: $EuLocation             = http://hl7.eu/fhir/base-r5/StructureDefinition/location-eu
-Alias: $EuLocationUrl          = http://hl7.eu/fhir/base-r5/StructureDefinition/location-eu
-
-Alias: $EuMedication           = Medication
-Alias: $EuMedicationUrl        = http://hl7.org/fhir/StructureDefinition/ImagingStudy/Medication
-
-Alias: $EuObservation          = Observation
-Alias: $EuObservationUrl       = http://hl7.org/fhir/StructureDefinition/Observation
-
-Alias: $EuMedicationAdministration = MedicationAdministration
-Alias: $EuMedicationAdministrationUrl = http://hl7.org/fhir/StructureDefinition/MedicationAdministration
-
-Alias: $EuOrganization         = OrganizationEu
-Alias: $EuOrganizationUrl      = http://hl7.eu/fhir/base-r5/StructureDefinition/organization-eu
-
-Alias: $EuOrganizationCore     = OrganizationEuCore
-Alias: $EuOrganizationCoreUrl  = http://hl7.eu/fhir/base-r5/StructureDefinition/organization-eu-core
-
-Alias: $EuPatient              = PatientEu
-Alias: $EuPatientUrl           = http://hl7.eu/fhir/base-r5/StructureDefinition/patient-eu
-
-Alias: $EuPatientCore          = PatientEuCore
-Alias: $EuPatientCoreUrl       = http://hl7.eu/fhir/base-r5/StructureDefinition/patient-eu-core
-
-Alias: $EuBodyStructure        = BodyStructureEuCore
-Alias: $EuBodyStructureUrl     = http://hl7.eu/fhir/base-r5/StructureDefinition/bodyStructure-eu-core
-
-Alias: $EuPatientAnimal        = PatientAnimalEuCore
-Alias: $EuPatientAnimalUrl     = http://hl7.eu/fhir/base-r5/StructureDefinition/patient-animal-eu-core
-
-Alias: $EuPractitioner         = PractitionerEu
-Alias: $EuPractitionerUrl      = http://hl7.eu/fhir/base-r5/StructureDefinition/practitioner-eu
-
-Alias: $EuPractitionerCore     = PractitionerEuCore
-Alias: $EuPractitionerCoreUrl  = http://hl7.eu/fhir/base-r5/StructureDefinition/practitioner-eu-core
-
-Alias: $EuPractitionerRole     = PractitionerRoleEu
-Alias: $EuPractitionerRoleUrl  = http://hl7.eu/fhir/base-r5/StructureDefinition/practitionerRole-eu
-
-Alias: $EuPractitionerRoleCore     = PractitionerRoleEuCore
-Alias: $EuPractitionerRoleCoreUrl  = http://hl7.eu/fhir/base-r5/StructureDefinition/practitionerRole-eu-core
-
-Alias: $EuProcedure            = Procedure
-Alias: $EuProcedureUrl         = http://hl7.org/fhir/StructureDefinition/Procedure
-
-Alias: $EuRange                = Range
-Alias: $EuRangeUrl             = http://hl7.org/fhir/StructureDefinition/Range
-
-Alias: $EuRelatedPerson        = RelatedPerson
-Alias: $EuRelatedPersonUrl     = http://hl7.org/fhir/StructureDefinition/RelatedPerson
-
-Alias: $EuServiceRequest       = ServiceRequest
-Alias: $EuServiceRequestUrl    = http://hl7.org/fhir/StructureDefinition/ServiceRequest
-
-Alias: $EuQuantity             = Quantity
-Alias: $EuQuantityUrl          = http://hl7.org/fhir/StructureDefinition/Quantity
-
-Alias: $EuSimpleQuantity       = SimpleQuantity
-Alias: $EuSimpleQuantityUrl    = http://hl7.org/fhir/StructureDefinition/SimpleQuantity
-
-Alias: $EuSpecimen             = Specimen
-Alias: $EuSpecimenUrl          = http://hl7.org/fhir/StructureDefinition/Specimen
-
-Alias: $EuSubstance            = Substance
-Alias: $EuSubstanceUrl         = http://hl7.org/fhir/StructureDefinition/Substance
-
+Alias: $lt-patient = https://hl7.lt/fhir/base/StructureDefinition/lt-patient
+Alias: $lt-practitioner = https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner
+Alias: $lt-practitioner-role = https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role
+Alias: $lt-organization = https://hl7.lt/fhir/base/StructureDefinition/lt-organization
+Alias: $lt-encounter = https://hl7.lt/fhir/base/StructureDefinition/lt-encounter
