@@ -23,7 +23,7 @@ Description: "This profile defines how to represent Specimens in HL7 FHIR for th
 * . ^definition = "Laboratory specimen"
 * type from $lab-specimenType-eu-lab (preferred)
 * type ^comment = "If the specimen.type conveys information about the site the specimen has been collected from, then, if the bodySite if present it shall be coherent with the type."
-* subject only Reference($EuPatientCoreUrl or $EuPatientAnimalUrl or Group or Device or Substance or Location)
+* subject only Reference($EuPatientUrl or $EuPatientAnimalUrl or Group or Device or Substance or Location)
 * parent only Reference(SpecimenEu)
 * request ^short = "Why the specimen was collected."
 * request ^comment = "If the specimen information are known when the order is created then the ServiceRequest.specimen should be used.\nIf the ServiceRequest can be updated when the specimen is collected then the ServiceRequest.specimen or the Specimen.request could be used.\nOtherwise the relationship is recorded in the Specimen.request element"

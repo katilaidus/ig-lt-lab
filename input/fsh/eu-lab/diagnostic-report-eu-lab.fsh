@@ -60,7 +60,7 @@ Description: "DiagnosticReport used to represent an entry of a Laboratory Report
 * code ^definition = "Specifies that it refers to a Laboratory Report"
 * code ^comment = "At least one DiagnosticReport.code.coding and Composition.type.coding SHALL be equal"
 * subject 1..
-* subject only Reference($EuPatientCoreUrl or $EuPatientAnimalUrl or Group or Location or Device)
+* subject only Reference($EuPatientUrl or $EuPatientAnimalUrl or Group or Location or Device)
 * subject ^short = "Who and/or what this report is about"
 * subject ^definition = "Who or what this report is about. The report can be about a human patient, a living subject, a device (e.g. a machine), a location or even a group of subjects (such as a document about a herd of livestock, or a set of patients that share a common exposure)."
 * subject ^comment = "DiagnosticReport and Composition SHALL have the same subject"
