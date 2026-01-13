@@ -1,0 +1,15 @@
+# Pathology workflow
+
+The pathology workflow begins when a clinician identifies a suspicious lesion during a physical examination or imaging study and places an [order](StructureDefinition-pathology-order-lt.html) for a histology or cytology. The order specifies the anatomical site, the type of procedure required, and the clinical question to be answered, such as confirming or ruling out malignancy.
+
+Following the order, the [biopsy](Procedure-breast-biopsy-example.html) procedure is performed. A tissue sample(s) is collected from the breast using an appropriate technique, such as a core needle biopsy [[1]](Specimen-specimen-left-breast-example.html) [[2]](Specimen-specimen-right-breast-example.html). The specimen is carefully labelled and documented to ensure accurate identification. It is then transported to the pathology laboratory under controlled conditions to preserve its integrity.
+
+Upon arrival at the laboratory, the specimen undergoes [gross examination](Procedure-histology-procedure-example.html). The pathologist or trained technician inspects the tissue macroscopically, noting its size, shape, and any visible abnormalities. Measurements and descriptions are recorded, and representative sections are selected for further processing.
+
+The next step is fixation, where the tissue is immersed in a preservative solution, typically formalin, to prevent degradation. After fixation, the specimen is embedded in paraffin wax to create a solid block suitable for thin slicing. Using a microtome, the embedded tissue is sectioned into very thin slices, which are then mounted on glass slides.
+
+These slides undergo staining to highlight cellular structures. The standard stain used is haematoxylin and eosin (H\&E), which provides a general view of tissue architecture. Additional special stains or immunohistochemical techniques may be applied to detect specific markers, such as [oestrogen receptor (ER)](Observation-observation-estrogen-status.html), [progesterone receptor (PR)](Observation-observation-progesterone-status.html), and HER2 status, which are critical for breast cancer characterisation.
+
+Once the slides are prepared, the pathologist performs a microscopic examination. They assess the tissue morphology, identify any malignant features, and determine tumour type, grade, and other relevant characteristics. Observations such as tumour size and receptor status are documented as discrete findings.
+
+Finally, all observations and interpretations are compiled into a comprehensive [diagnostic report](DiagnosticReport-pathology-report-example.html). The [final document composition](Composition-pathology-composition-example.html) includes the clinical context, specimen details, procedural notes, microscopic findings, and a definitive diagnosis. It may also provide prognostic information and recommendations for further management. The report is reviewed, signed off by the pathologist, and communicated back to the ordering clinician, completing the diagnostic cycle.

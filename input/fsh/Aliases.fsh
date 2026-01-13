@@ -91,3 +91,8 @@ Alias: $lt-practitioner = https://hl7.lt/fhir/base/StructureDefinition/lt-practi
 Alias: $lt-practitioner-role = https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role
 Alias: $lt-organization = https://hl7.lt/fhir/base/StructureDefinition/lt-organization
 Alias: $lt-encounter = https://hl7.lt/fhir/base/StructureDefinition/lt-encounter
+
+// Lab
+Alias: 
+$lab-specialty-eu-lab = http://hl7.eu/fhir/laboratory/ValueSet/lab-specialty-eu-lab
+Alias: $v2-0074 = http://terminology.hl7.org/CodeSystem/v2-0074
