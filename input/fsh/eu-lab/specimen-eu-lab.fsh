@@ -31,6 +31,5 @@ Description: "This profile defines how to represent Specimens in HL7 FHIR for th
 * collection.bodySite from SNOMEDCTBodyStructures (preferred)
 * collection.bodySite ^comment = "If the specimen.type conveys information about the site the specimen has been collected from, then, if the bodySite is present, it shall be coherent with the type"
 * processing.additive only Reference(Substance or $Substance-additive-eu-lab)
-// * container.deviceCodeableConcept from $lab-specimenContainer-eu-lab (preferred)
 * container.extension contains SpecimenContainerType named type 0..1
 
