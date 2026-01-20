@@ -8,7 +8,7 @@ Usage: #example
 * identifier.value = "3f69e0a5-2177-4540-baab-7a5d0877428f"
 * basedOn = Reference(ServiceRequest/pathology-order-example)
 * status = #final
-* category = $v2-0074#PAT "Pathology"
+* category = $v2-0074#PAT "Pathology (gross & histopath, not surgical)"
 * code = $sct#371528001 "Pathology report (record artifact)"
 * subject = Reference(Patient/example-patient)
 * effectiveDateTime = "2022-10-25T13:35:00+01:00"
@@ -19,6 +19,6 @@ Usage: #example
 * result[1] = Reference(Observation/observation-estrogen-status)
 * result[2] = Reference(Observation/observation-progesterone-status)
 * conclusion = "Histopathological examination of the breast tissue specimens confirms the presence of invasive ductal carcinoma in the right breast and benign fibrocystic changes in the left breast."
-* conclusionCode[0] = $sct#254837009 "Invasive ductal carcinoma (disorder)"
+* conclusionCode[0] = $sct#254837009 "Malignant tumor of breast"
 * conclusionCode[1] = $sct#443761000124 "Benign fibrocystic changes (disorder)"
 * composition = Reference(Composition/pathology-composition-example)

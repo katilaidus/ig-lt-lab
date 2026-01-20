@@ -173,7 +173,7 @@ Description: "Observation representing the patient's triglyceride concentration 
 Instance: example-total-cholesterol
 InstanceOf: TotalCholesterolLabLt
 Usage: #example
-Title: "Example of Cholesterol Total - Normal"
+Title: "Observation: Lab - Cholesterol Total Example"
 Description: "Example observation showing a patient's total cholesterol level within normal range."
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
@@ -191,7 +191,7 @@ Description: "Example observation showing a patient's total cholesterol level wi
 Instance: example-cholesterol-non-hdl
 InstanceOf: CholesterolNonHdlLabLt
 Usage: #example
-Title: "Example of Cholesterol Non-HDL - Normal"
+Title: "Observation: Lab - Cholesterol Non-HDL (Normal) Example"
 Description: "Example observation showing a patient's non-HDL cholesterol level within normal range."
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
@@ -209,7 +209,7 @@ Description: "Example observation showing a patient's non-HDL cholesterol level 
 Instance: example-cholesterol-hdl
 InstanceOf: CholesterolHdlLabLt
 Usage: #example
-Title: "Example of Cholesterol HDL - Normal"
+Title: "Observation: Lab - Cholesterol HDL (Normal) Example"
 Description: "Example observation showing a patient's HDL cholesterol level within normal range."
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
@@ -227,7 +227,7 @@ Description: "Example observation showing a patient's HDL cholesterol level with
 Instance: example-triglycerides
 InstanceOf: TriglyceridesLabLt
 Usage: #example
-Title: "Example of Triglycerides - Normal"
+Title: "Observation: Lab - Triglycerides (Normal) Example"
 Description: "Example observation showing a patient's triglyceride level within normal range."
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
@@ -245,7 +245,7 @@ Description: "Example observation showing a patient's triglyceride level within 
 Instance: example-cholesterol-ldl
 InstanceOf: CholesterolLdlLabLt
 Usage: #example
-Title: "Example of Cholesterol LDL - Calculated"
+Title: "Observation: Lab - Cholesterol LDL (Calculated) Example"
 Description: "Example observation showing a patient's calculated LDL cholesterol level."
 * status = #final
 * category = $observation-category#laboratory "Laboratory"

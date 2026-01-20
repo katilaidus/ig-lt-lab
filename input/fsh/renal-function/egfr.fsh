@@ -1,7 +1,7 @@
 ValueSet: EGFRMethodLabLt
 Id: egfr-method-lab-lt
-Title: "eGFR. Estimated Glomerular Filtration Rate Methods"
-Description: "LOINC codes representing eGFR measurements calculated using CKD-EPI formulas (original and 2021 revision)."
+Title: "eGFR"
+Description: "LOINC codes representing eGFR measurement methos calculated using CKD-EPI formulas (original and 2021 revision)."
 * ^language = #en
 * ^version = "1.0.0"
 * ^status = #active
@@ -15,7 +15,7 @@ Description: "LOINC codes representing eGFR measurements calculated using CKD-EP
 Profile: EGFRLabLt
 Parent: LTBaseObservation
 Id: egfr-lab-lt
-Title: "eGFR. Estimated Glomerular Filtration Rate"
+Title: "Observation: Lab - eGFR"
 Description: "Observation representing estimated glomerular filtration rate (eGFR) calculated using the CKD-EPI or CKD-EPI 2021 formula."
 * ^status = #draft
 * ^language = #en
@@ -43,7 +43,7 @@ Description: "Observation representing estimated glomerular filtration rate (eGF
 Instance: example-egfr
 InstanceOf: EGFRLabLt
 Usage: #example
-Title: "Example of Estimated Glomerular Filtration Rate (eGFR)"
+Title: "Observation: Lab - eGFR"
 Description: "Example showing a patient's eGFR result calculated using the CKD-EPI 2021 formula."
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
@@ -52,7 +52,7 @@ Description: "Example showing a patient's eGFR result calculated using the CKD-E
 * effectiveDateTime = "2025-10-01T09:00:00Z"
 * valueQuantity.value = 92
 * valueQuantity.unit = "mL/min/1.73 m²"
-* valueQuantity.system = "http://unitsofmeasure.org"
+* valueQuantity.system = $ucum
 * valueQuantity.code = #mL/min/{1.73_m2}
 * interpretation = $v3-obs-interpretation#N "Normal"
 * note.text = "Estimated GFR calculated using CKD-EPI 2021 creatinine-based formula."

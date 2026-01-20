@@ -44,6 +44,8 @@ Description: "Lipid panel (Lipidogram) including Total Cholesterol, LDL-C, HDL-C
 Instance: triglyceride
 InstanceOf: TriglyceridesLabLt
 Usage: #inline
+Title: "Observation: Lab - Triglyceride for Lipidogram Example"
+Description: "Triglyceride observation included in the lipid panel example."
 * id = "triglyceride"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
@@ -62,7 +64,7 @@ Usage: #inline
 Instance: example-lipidogram
 InstanceOf: LipidogramLabLt
 Usage: #example
-Title: "Example of Lipidogram – Serum/Plasma"
+Title: "Observation: Lab - Lipidogram (Serum/Plasma) Example"
 Description: "Example lipid panel with high LDL and normal HDL."
 
 * status = #final
