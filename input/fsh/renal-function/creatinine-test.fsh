@@ -28,7 +28,7 @@ Description: "Observation representing the patient's serum or plasma creatinine 
 Instance: example-creatinine-test
 InstanceOf: CreatinineTestLabLt
 Usage: #example
-Title: "Example of Creatinine Test"
+Title: "Observation: Lab - Creatinine Test Example"
 Description: "Example observation of serum creatinine concentration."
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
@@ -37,7 +37,7 @@ Description: "Example observation of serum creatinine concentration."
 * effectiveDateTime = "2025-10-01T09:00:00Z"
 * valueQuantity.value = 85
 * valueQuantity.unit = "µmol/L"
-* valueQuantity.system = "http://unitsofmeasure.org"
+* valueQuantity.system = $ucum
 * valueQuantity.code = #umol/L
 * interpretation = $observation-interpretation#N "Normal"
 * note.text = "Patient's creatinine level within normal range."
