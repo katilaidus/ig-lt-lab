@@ -30,7 +30,7 @@ Description: "Observation representing the urine albumin-to-creatinine ratio (AC
 Instance: example-acr
 InstanceOf: ACRLabLt
 Usage: #example
-Title: "Example of Albumin/Creatinine Ratio (ACR)"
+Title: "Observation: Lab - Albumin/Creatinine Ratio (ACR) Example"
 Description: "Example observation of a patient's urine albumin-to-creatinine ratio."
 * status = #final
 * category = $observation-category#laboratory "Laboratory"

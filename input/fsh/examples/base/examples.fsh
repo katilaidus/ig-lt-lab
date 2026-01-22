@@ -1,7 +1,7 @@
 Instance: example-patient
 InstanceOf: LTBasePatient // Links this instance to the specific profile
 Usage: #example
-Title: "Example of Patient - Jonas Petrauskas"
+Title: "Patient: Jonas Petrauskas"
 Description: "An example Patient conforming to the Lithuanian Base Profile."
 
 // Identifiers (Required: 1..* MS)
@@ -43,7 +43,7 @@ Description: "An example Patient conforming to the Lithuanian Base Profile."
 
 Instance: example-practitioner
 InstanceOf: Practitioner
-Title: "Example of Practitioner"
+Title: "Practitioner: Registrar"
 Usage: #example
 * name.text = "Registrar"
 * qualification.code = $sct#224538006 "Triage nurse (occupation)"
@@ -51,6 +51,6 @@ Usage: #example
 
 Instance: example-organization
 InstanceOf: Organization
-Title: "Example of Organization"
+Title: "Organization: Vilnius Heart Clinic"
 Usage: #example
 * name = "Vilnius Heart Clinic"

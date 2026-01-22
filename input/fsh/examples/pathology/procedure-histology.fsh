@@ -12,5 +12,5 @@ Description: "Example of a histology procedure performed during pathology evalua
 * subject = Reference(example-patient)
 * occurrenceDateTime = "2025-01-10T15:20:00+02:00"
 * performer.actor = Reference(example-practitioner)
-* bodySite = $sct#76752008 "Structure of breast"
+* bodySite = $sct#76752008 "Breast"
 

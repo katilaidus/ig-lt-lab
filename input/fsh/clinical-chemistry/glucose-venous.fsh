@@ -45,7 +45,7 @@ Description: "This profile constrains the Observation resource to represent gluc
 Instance: example-glucose-venous
 InstanceOf: GlucoseVenousLabLt
 Usage: #example
-Title: "Example Glucose in Venous Blood"
+Title: "Observation: Lab - Glucose in Venous Blood Example"
 Description: "Example of laboratory glucose measurement in venous blood."
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
@@ -64,8 +64,9 @@ Description: "Example of laboratory glucose measurement in venous blood."
 Instance: example-specimen-venous
 InstanceOf: Specimen
 Usage: #example
-Title: "Example Venous Blood Specimen"
+Title: "Specimen: Venous Blood Sample Example"
 Description: "Venous blood sample used for glucose testing."
 * type = $sct#122555007 "Venous blood specimen"
 * receivedTime = "2025-11-06T08:30:00Z"
+* subject = Reference(example-patient)
 
